@@ -1,0 +1,7 @@
+*.pdf
+.hg/
+*.swp
+img/
+phpadmin/
+images/
+.DS_Store

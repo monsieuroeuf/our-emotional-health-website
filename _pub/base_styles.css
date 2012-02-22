@@ -1,0 +1,178 @@
+/*
+CAAS CSS Styles
+	Purpose	:: 
+		Contains all css formatting for CAAS
+	Maintainer ::
+		Mark - mark@ilisys.com.au
+*/
+
+/*** SITE WIDE ***/
+	/* Forms */
+		.frmInput { font-family: Verdana,Arial, Helvetica, sans-serif; color: #555555; text-decoration: none; font-size: 11px; border: 1px solid Silver; padding-left:3px; }
+		.frmButton { font-family: Verdana,Arial, Helvetica, sans-serif; font-size: 11px; border: thin solid LightSteelBlue 1px; background: white; letter-spacing : 1px; margin : 2px; }
+		.frmDropDown {  font-family: Verdana,Arial, Helvetica, sans-serif; font-size: 11px; color: #737373; border: 1px #C0C0C0 solid; padding: 0px;}
+		.frmDropDown120 {  font-family: Verdana,Arial, Helvetica, sans-serif; font-size: 11px; height: 17px; width: 120px; color: #737373; border: 1px #C0C0C0 solid;}
+		.frmDropDownSmall { font-family: Verdana,Arial, Helvetica, sans-serif; font-size: 11px; height: 17px; width: 60px; color: #737373; border: 1px #C0C0C0 solid;}
+
+	/* General Site Elements */
+		.dummy { color: gray;}
+		HR { height:1px; color: LightSteelBlue;}
+	
+	/* Misc Styles */
+		.dummy { color: gray;}
+		.sitePageHeader { font-family: Verdana,Arial, Helvetica, sans-serif; letter-spacing: 1px; color: darkorange; font-size: 17px;}	
+		.fntBold { font-weight: bold; }
+		.imgPadRight { border-right: 5px solid white; }
+	/* Misc Table Styles */
+		.dummy { color: gray;}
+		.tblNoPad {	padding: 0px; }
+		.tblSmallPad {	padding-left: 3px; }
+		.tblNormal { padding: 0px; text-align: left; border: 0px;};
+/*** END SITE WIDE ***/
+
+/* std - Standard Site Wide Text */
+	.dummy { color: gray;}
+	
+	.stdText { font-family: Verdana,Arial, Helvetica, sans-serif; font-size: 11px; color: dimgray; text-decoration: none;}
+		.stdText:link { font-family: Verdana,Arial, Helvetica, sans-serif; font-size: 11px; color: dimgray; text-decoration: none;}
+		.stdText:visited { color: dimgray; text-decoration: none;}
+		.stdText:hover { color: dimgray; text-decoration: none; background: whitesmoke; }
+		.stdTextHeader { font-family: Verdana,Arial, Helvetica, sans-serif; font-size: 12px; color: dimgray; text-decoration: none; font-weight: bold;}
+		
+		.stdTextHeaderOrange { font-family: Verdana,Arial, Helvetica, sans-serif; font-size: 12px; color: darkorange; text-decoration: none;}
+		.stdTextHeaderLink { font-family: Verdana,Arial, Helvetica, sans-serif; font-size: 12px; color: steelblue; text-decoration: none; }
+		.stdTextHeaderLink:hover { text-decoration: underline; }
+		
+			.stdTextHeader { font-family: Verdana,Arial, Helvetica, sans-serif; font-size: 12px; color: dimgray; text-decoration: none; }
+		
+		
+	.stdTextLink { font-family: Verdana,Arial, Helvetica, sans-serif; font-size: 11px; color: steelblue; text-decoration: none; }
+	.stdTextLink:link { font-family: Verdana,Arial, Helvetica, sans-serif; font-size: 11px; color: steelblue; text-decoration: none; }
+	.stdTextLink:visited { font-family: Verdana,Arial, Helvetica, sans-serif; font-size: 11px; color: steelblue; text-decoration: none; }
+	.stdTextLink:hover { font-family: Verdana,Arial, Helvetica, sans-serif; font-size: 11px; color: orange; text-decoration: none; }
+	.stdTextLink:active { font-family: Verdana,Arial, Helvetica, sans-serif; font-size: 11px; color: orange; text-decoration: none; }
+	
+	.stdIcoLink:link { font-family: Verdana,Arial, Helvetica, sans-serif; font-size: 11px; color: steelblue; text-decoration: none;}
+	.stdIcoLink:link { font-family: Verdana,Arial, Helvetica, sans-serif; font-size: 11px; color: steelblue; text-decoration: none;}
+	.stdIcoLink:visited { color: steelblue; text-decoration: none;}
+	.stdIcoLink:hover { color: steelblue; text-decoration: underline;}
+
+	
+/* END STD */
+	
+/* sml - Small Standard Text */
+	.dummy { color: gray;}
+	.smlText {  		font-family: Verdana,Arial, Helvetica, sans-serif; font-size: 10px; color: #333333; text-decoration: none}
+	.smlText:hover {	font-family: Verdana,Arial, Helvetica, sans-serif; font-size: 10px; color: #555555; text-decoration: underline}
+	.smlText:active {	font-family: Verdana,Arial, Helvetica, sans-serif; font-size: 10px; color: #333333; text-decoration: none}
+
+	.smlTextLink {  		font-family: Verdana,Arial, Helvetica, sans-serif; font-size: 10px; color: steelblue; text-decoration: none}
+	.smlTextLink:hover {	color: darkorange;}
+	.smlTextLink:active {	color: steelblue;}	
+	
+		.smlTextGray {  		font-family: Verdana,Arial, Helvetica, sans-serif; font-size: 10px; color: gray; text-decoration: none}
+		.smlTextGray:hover {  font-family: Verdana,Arial, Helvetica, sans-serif; font-size: 10px; color: gray; text-decoration: underline}
+		.smlTextGray:active { font-family: Verdana,Arial, Helvetica, sans-serif; font-size: 10px; color: gray; text-decoration: none}
+/* END SML */
+
+/*** nav ***/
+	.dummy { color: gray;}
+	.navTbl { text-align: left; vertical-align: top; font-family: Verdana,Arial, Helvetica, sans-serif; color: steelblue; font-size: 12px; padding: 0px;  text-decoration: none;}
+		.navTblOptionText 			{ color: steelblue; font-size: 11px; text-decoration: none;};
+		.navTblOptionText:link 		{ color: steelblue; font-size: 11px; text-decoration: none;};
+		.navTblOptionText:hover 	{ color: steelblue; font-size: 11px; text-decoration: underline; };
+
+		.navTblOptionTextOn 		{ color: darkorange; font-size: 11px; text-decoration: none;};
+		.navTblOptionTextOn:hover 	{  color: darkorange; text-decoration: underline};			
+		
+		.navTblHeadingText 			{ color: steelblue; text-decoration: none;}
+		.navTblHeadingText:link 	{ color: steelblue; text-decoration: none;}
+		.navTblHeadingText:hover 	{ color: steelblue; text-decoration: underline}
+
+		.navTblHeadingTextOn 			{ color: darkorange; text-decoration: none;}
+/*** END nav ***/
+
+/*** nfo - Alerts ***/ 
+	.dummy { color: gray;}
+	.nfoTbl{ border-top: 1px Solid LightSteelBlue; border-bottom: 1px Solid LightSteelBlue;	padding: 0px; text-align : left;}
+	.nfoTblLeft { vertical-align: top; padding-left: 7px; padding-right: 7px;}
+	.nfoTblRight { vertical-align: top;}
+
+	.nfoTblText { font-family: Verdana,Arial, Helvetica, sans-serif; font-size: 11px; color: dimgray; text-decoration: none;}
+		.nfoTblText:hover { background: whitesmoke; font-family: Verdana,Arial, Helvetica, sans-serif; font-size: 11px; color: dimgray; text-decoration: none }
+		.nfoTblTextHeader { font-family: Verdana,Arial, Helvetica, sans-serif; font-size: 12px; color: dimgray; text-decoration: none; font-weight: bold;}
+		.nfoTblTextExclamation { font-family: Verdana,Arial, Helvetica, sans-serif; font-size: 11px; color: LightSteelBlue; text-decoration: none; font-weight: bold;}
+	
+	.nfoTblTextLink { font-family: Verdana,Arial, Helvetica, sans-serif; font-size: 11px; color: steelblue; text-decoration: none; }
+	.nfoTblTextLink:hover { font-family: Verdana,Arial, Helvetica, sans-serif; font-size: 11px; color: orange; text-decoration: none; }
+	.nfoTblTextLink:active { font-family: Verdana,Arial, Helvetica, sans-serif; font-size: 11px; color: orange; text-decoration: none; }
+/*** END nfo ***/
+
+/*** web - Table style used on the various registration pages of Ilisys ***/
+	.dummy { color: gray;}
+	.mattsPad { font-family: Verdana,Arial, Helvetica, sans-serif; color: gray; font-size: 11px; padding: 3px;	padding-right: 4px; padding-left: 20px;	padding-top: 0px; border: 1px notSolid gainsboro; }
+
+	.webTbl { font-family: Verdana,Arial, Helvetica, sans-serif; color: gray; font-size: 11px; padding: 3px;	padding-right: 4px;	padding-left: 4px; border: 1px notSolid gainsboro; }
+	.webTblTop { color: LightSteelBlue; font-size: 12px; background: LightGoldenrodYellow; font-weight: bold; padding: 0px; padding-left: 10px; letter-spacing : 1px; }
+	.webTblTitle { vertical-align: top; background: LightSteelBlue; letter-spacing: 0; color: white; font-weight: bold; font-size: 11px; border-right: 1px solid White; }
+	.webTblLeft { vertical-align: top; text-align: left; background: white; color: #555555; padding: 10px; padding-left: 10px; padding-top: 10px; padding-left: 10px;}
+	.webTblRight {  border-left: 1px dashed lightsteelblue; vertical-align: top; background: white; color: #666666; font-size: 12px; line-height : 16px;}	
+	.webTblRightBottom { border-bottom: 1px NOT-CURRENTLY-USED lightsteelblue; vertical-align: top; background: white; color: #666666; padding-bottom: 10px;}	
+	.webTblWhite {  background: white; color: #666666; font-size: 12px; letter-spacing : 1px;}
+	.webTblBottom { background: white; text-align: right;}
+	.webTblDivider { text-align:right; background: white; border-top : 1px Solid gainsboro; height : 3px; padding: 0px; }
+	.webTblDividerLarger { background: white; border-top : 1px Solid gainsboro; height : 8px; padding: 0px; }
+	.webTblText {  font-family: Verdana,Arial, Helvetica, sans-serif; font-size: 11px; color: #444444; text-decoration: none}
+	.webTblText:hover {  font-family: Verdana,Arial, Helvetica, sans-serif; font-size: 11px; color: #555555; text-decoration: underline}
+	.webTblText:active {  font-family: Verdana,Arial, Helvetica, sans-serif; font-size: 11px; color: #555555; text-decoration: none}
+		.webTblTextSmall {  font-family: Verdana,Arial, Helvetica, sans-serif; font-size: 10px; color: #444444; text-decoration: none}
+		.webTblTextHeader {  font-family: Verdana,Arial, Helvetica, sans-serif; font-size: 12px; color: darkgray; text-decoration: none; font-weight: normal;}
+		.webTblTextHeader:hover {  font-family: Verdana,Arial, Helvetica, sans-serif; font-size: 12px; color: #555555; text-decoration: underline}
+		.webTblTextHeader:active {  font-family: Verdana,Arial, Helvetica, sans-serif; font-size: 12px; color: #555555; text-decoration: none}
+			.webTblTextHeaderSmall {  font-family: Verdana,Arial, Helvetica, sans-serif; font-size: 11px; color: darkgray; text-decoration: none}
+			.webTblTextHeaderSmall:hover {  font-family: Verdana,Arial, Helvetica, sans-serif; font-size: 11px; color: #555555; text-decoration: underline}
+			.webTblTextHeaderSmall:active {  font-family: Verdana,Arial, Helvetica, sans-serif; font-size: 11px; color: #555555; text-decoration: none}		
+/*** END web ***/
+
+/*** pcs - Process Form Table ***/
+	.dummy { color: gray;}
+	.pcsTbl { font-family: Verdana,Arial, Helvetica, sans-serif; color: gray; font-size: 11px; padding: 3px; padding-right: 4px;	padding-left: 4px; border: 1px Solid gainsboro; }
+	.pcsTblTop { text-align: left; color: LightSteelBlue; font-size: 12px; background: LightGoldenrodYellow; font-weight: bold; padding: 0px; vertical-align : middle; padding-left: 10px; letter-spacing : 1px; }
+	.pcsTblLeft { text-align : right;  vertical-align: top; background: LightSteelBlue; letter-spacing: 1px; color: darkslategray; font-size: 11px; }
+	.pcsTblRight { text-align: left; background: whitesmoke; color: #555555; vertical-align: top;}
+	.pcsTblWhite {  background: white; vertical-align: top; font-size:12px; text-align: left;}
+	.pcsTblBottom { background: white; text-align: right;}
+	.pcsTblDivider { text-align:right; background: white; border-top : 1px Solid gainsboro; height : 3px; padding: 0px; }
+	.pcsTblDividerLarge { text-align:right; background: white; border-top : 1px Solid gainsboro; height : 8px; padding: 0px; }
+	.pcsTblText {  font-family: Verdana,Arial, Helvetica, sans-serif; font-size: 11px; color: #555555; text-decoration: none}
+	
+	.pcsTblTextLink {  font-family: Verdana,Arial, Helvetica, sans-serif; font-size: 11px; color: #777777; text-decoration: none}
+	.pcsTblTextLink:hover {  font-family: Verdana,Arial, Helvetica, sans-serif; font-size: 11px; color: #666666; text-decoration: underline}
+	.pcsTblTextLink:active {  font-family: Verdana,Arial, Helvetica, sans-serif; font-size: 11px; color: #666666; text-decoration: none}		
+	
+	.pcsTblTextLight {  font-family: Verdana,Arial, Helvetica, sans-serif; font-size: 11px; color: silver; text-decoration: none}
+	.pcsTblTextLight:hover {  font-family: Verdana,Arial, Helvetica, sans-serif; font-size: 11px; color: #555555; text-decoration: underline}
+	.pcsTblTextLight:active {  font-family: Verdana,Arial, Helvetica, sans-serif; font-size: 11px; color: #555555; text-decoration: none}		
+/*** END pcs ***/
+
+/*** rpt - Report style used on all displayed reports ***/
+	.dummy { color: gray;}
+	.rptTbl { font-family: Verdana,Arial, Helvetica, sans-serif; color: gray; font-size: 11px; padding: 3px;	padding-right: 4px;	padding-left: 4px; border: 1px Solid gainsboro; }
+	.rptTblTop { text-align: left; color: LightSteelBlue; font-size: 12px; background: LightGoldenrodYellow; font-weight: bold; padding: 0px; padding-left: 10px; letter-spacing : 1px; }
+	.rptTblTitle { vertical-align: top; background: LightSteelBlue; letter-spacing: 0; color: white; font-weight: bold; font-size: 11px; border-right: 1px solid White; }
+	.rptTblCell { text-align: left; background: whitesmoke; border-right: 2px solid White; }
+	.rptTblCell2 { text-align: left; background: white; border-right: 2px solid White; }	
+	.rptTblWhite {  background: white;}
+	.rptTblBottom { background: white; text-align: right;}
+	.rptTblDivider { text-align:right; background: white; border-top : 1px Solid gainsboro; height : 3px; padding: 0px; }
+	.rptTblDividerLarger { background: white; border-top : 1px Solid gainsboro; height : 8px; padding: 0px; }
+	.rptTblText {  font-family: Verdana,Arial, Helvetica, sans-serif; font-size: 11px; color: #444444; text-decoration: none}
+	.rptTblText:hover {  font-family: Verdana,Arial, Helvetica, sans-serif; font-size: 11px; color: #555555; text-decoration: underline}
+	.rptTblText:active {  font-family: Verdana,Arial, Helvetica, sans-serif; font-size: 11px; color: #555555; text-decoration: none}
+		.rptTblTextHeader {  font-family: Verdana,Arial, Helvetica, sans-serif; font-size: 12px; color: darkgray; text-decoration: none; font-weight: normal;}
+		.rptTblTextHeader:hover {  font-family: Verdana,Arial, Helvetica, sans-serif; font-size: 12px; color: #555555; text-decoration: underline}
+		.rptTblTextHeader:active {  font-family: Verdana,Arial, Helvetica, sans-serif; font-size: 12px; color: #555555; text-decoration: none}
+			.rptTblTextHeaderSmall {  font-family: Verdana,Arial, Helvetica, sans-serif; font-size: 11px; color: darkgray; text-decoration: none}
+			.rptTblTextHeaderSmall:hover {  font-family: Verdana,Arial, Helvetica, sans-serif; font-size: 11px; color: #555555; text-decoration: underline}
+			.rptTblTextHeaderSmall:active {  font-family: Verdana,Arial, Helvetica, sans-serif; font-size: 11px; color: #555555; text-decoration: none}		
+/*** END rpt ***/
