@@ -1,3 +1,8 @@
+/* @override 
+	http://robin.local:8888/our_emotional_health_tables.css
+	http://robin.dev:8888/our_emotional_health_tables.css
+*/
+
 BODY {
 	padding: 0px;
 	margin:0px;	
@@ -56,7 +61,7 @@ a {
 	font-weight: bold;
 	color: #003399;
 	text-decoration: none;
-	font-size: 12px;
+	/*font-size: 12px;*/
 }
 
 a:hover {
@@ -134,3 +139,42 @@ td {
 	line-height: 1.5;
 }
 
+
+.notice {
+	background-color: #0a3899;
+	padding: 20px;
+	color: #fff;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-size: 120%;
+	font-weight: bold;
+	text-align: center;
+}
+
+.notice a {
+	color: #99b6f8;
+	text-decoration: underline;
+}
+
+.notice a:hover {
+	text-decoration: none;
+}
+
+ul {
+	list-style-position: inside;
+	padding: 0;
+}
+
+li {
+	text-indent: -1em;
+	position: relative;
+	left: 1em;
+}
+
+.linkspage li {
+	margin-bottom: 1em;
+}
+
+.linkspage ul {
+	list-style-position: outside;
+}
