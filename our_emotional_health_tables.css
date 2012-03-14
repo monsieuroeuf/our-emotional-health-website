@@ -166,7 +166,7 @@ ul {
 }
 
 li {
-	text-indent: -1em;
+	/*text-indent: -1em;*/
 	position: relative;
 	left: 1em;
 }
