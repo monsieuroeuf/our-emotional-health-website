@@ -104,9 +104,14 @@ ul {
 	padding-bottom: 0px; 
 	margin-bottom:0px;	}
 .infoBox {
+	padding:10px;
 	margin: 3px;
 	border: 1px solid #cc9933;
 	color: #000000;
+}
+
+.infoBox p {
+	padding-left:0;
 }
 
 td {
@@ -167,8 +172,8 @@ ul {
 
 li {
 	/*text-indent: -1em;*/
-	position: relative;
-	left: 1em;
+	/*position: relative;
+	left: 1em;*/
 }
 
 .linkspage li {
@@ -177,4 +182,31 @@ li {
 
 .linkspage ul {
 	list-style-position: outside;
+}
+
+.alert {
+	padding:1em;
+	background-color:#8FAFFA;
+	margin-bottom:20px;
+}
+
+.alert h3 {
+	color:#fff;
+	font-size:20px;
+}
+
+.alert li {
+	margin-bottom:1em;
+	font-size:14px;
+}
+
+.infoBox h3 {
+	padding: 0px;
+}
+.infoBox p {
+	padding: 0px;
+	margin: 0.5em;
+}
+.infoBox h4 {
+	margin-bottom: 0.5em;
 }
