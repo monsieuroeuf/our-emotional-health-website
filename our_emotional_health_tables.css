@@ -3,6 +3,9 @@
 	http://robin.dev:8888/our_emotional_health_tables.css
 */
 
+
+
+
 BODY {
 	padding: 0px;
 	margin:0px;	
@@ -185,14 +188,9 @@ li {
 }
 
 .alert {
-	padding:1em;
-	background-color:#8FAFFA;
-	margin-bottom:20px;
-}
-
-.alert h3 {
-	color:#fff;
-	font-size:20px;
+	padding: 1em;
+	background-color: #8FAFFA;
+	margin-bottom: 20px;
 }
 
 .alert li {
@@ -210,3 +208,58 @@ li {
 .infoBox h4 {
 	margin-bottom: 0.5em;
 }
+
+
+/* ian's rad styles */
+.opacity .alert-outer {
+	opacity: 0.01;
+}
+
+.alert h3 {
+	font-family: helvetica, arial, sans-serif;
+	text-shadow: 1px 1px 6px black;
+	font-size: 30px;
+	color:#fff;
+}
+
+.alert-outer {
+	border-radius: 15px;
+/* 	background: -webkit-linear-gradient(#1010f5 0%, #ffffff 100%); */
+	overflow: auto;
+	margin-bottom: 20px;
+	background-color: #95b3f9;
+}
+
+.opacity .alert-outer {
+	background-color: rgba(142,175,250,0.5);
+}
+
+.alert-outer h3 {
+	font-family: helvetica, arial, sans-serif;
+	font-size: 30px;
+	color:#fff;
+	text-align: center;
+}
+
+.textshadow .fancy-text {
+	text-shadow: 1px 1px 6px black;
+}
+
+.alert-left {
+	clear: both;
+	float: left;
+	width: 50%;
+}
+
+.alert-right {
+	margin-top:20px;
+	margin-bottom: 20px;
+	float: left;
+	width: 50%;
+}
+
+.alert-right p {
+	margin-top: 0;
+}
+
+
