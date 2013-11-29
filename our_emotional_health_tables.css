@@ -37,9 +37,9 @@ H2 {
 H3 {
 	PADDING-RIGHT: 3px; 
 	PADDING-LEFT: 3px; 
-	PADDING-BOTTOM: -3px; 
+	/*PADDING-BOTTOM: -3px; */
 	PADDING-TOP: 0px;
-	MARGIN: 0px 0px -6px; 
+	/*MARGIN: 0px 0px -6px; */
 	FONT: bold 16px verdana, arial, helvetica, sans-serif; 
 	color:#996600;
 }
@@ -58,7 +58,7 @@ P {
 	FONT: 12px arial, helvetica, sans-serif; 
 }
 hr	{
-	width:90%;
+	width: 90%;
 	}
 a {
 	font-weight: bold;
@@ -263,3 +263,13 @@ li {
 }
 
 
+div.alert-outer h3 {
+	text-align: center;
+	margin-top: 0;
+}
+.alert-outer {
+	padding: 2em;
+}
+.alert-outer h2 {
+	text-align: center;
+}
