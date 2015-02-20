@@ -3,14 +3,6 @@
 	http://robin.dev:8888/our_emotional_health_tables.css
 */
 
-
-.seminarsPrevious .nav-seminarsPrevious {
-	font-size: 20px;
-	color: #000;
-}
-
-
-
 BODY {
 	padding: 0px;
 	margin:0px;	
@@ -77,7 +69,8 @@ a:hover {
 }
 
 a:visited {
-	color: maroon;
+	color: #003399;
+	/*color: maroon;*/
 }
 .orient {
 	color: #000000;
